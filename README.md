@@ -14,4 +14,3 @@ options:
                         IPs that are pointed as safe -which will not be considered as an attacker. - default: 10.0.2.2
   -s BOOLEAN, --summary BOOLEAN, --show BOOLEAN
                         Switches on/off summary (detailed info) mode. - default: True
-                                                                                                                                                                       
