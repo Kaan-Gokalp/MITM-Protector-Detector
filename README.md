@@ -8,13 +8,17 @@ options:
   -h, --help            Helps about commands.
   
   -r IP_RANGE, --range IP_RANGE, --iprange IP_RANGE
+                        
                         Indicate an IP range. - default: 10.0.2.1/24
                         
   -g GATEWAY_IP, --gateway GATEWAY_IP, --gatewayip GATEWAY_IP
+                        
                         Indicate your Gateway IP. - default: 10.0.2.1
                         
   -f FILTER_IP, --filter FILTER_IP
+                        
                         IPs that are pointed as safe -which will not be considered as an attacker. - default: 10.0.2.2
                         
   -s BOOLEAN, --summary BOOLEAN, --show BOOLEAN
+                        
                         Switches on/off summary (detailed info) mode. - default: True
